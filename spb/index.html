@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Схема метро Санкт-Петербурга</title>
+  <link rel="stylesheet" type="text/css" href="/css/imageviewer.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <script src="/js/jquery-1.11.3.min.js"></script> 
+  <script src="/js/imageviewer.min.js"></script>
+  <script src="/js/custom.js"></script>
+</head>
+<body class="map-spb lang-ru">
+  <div id="page">
+    <div id="navbar">
+      <div class="navbar-item navbar-title">
+        <div class="title-group">
+          <div class="logo"></div>
+          <div class="map-title">Петербургский метрополитен</div>
+        </div>
+      </div>
+      <div class="navbar-item">
+        <div class="menu-dropdown-toggle" data-target="options-menu">
+          <a class="menu-icon" href="#"></a>
+        </div>
+        <ul class="menu menu-dropdown" id="options-menu">
+          <li class="current"><a class="menu-item-spb" href="/spb">Санкт-Петербург</a></li>
+          <li><a class="menu-item-msk" href="/msk">Москва</a></li>
+          <li><a class="switch-en" href="#">English</a></li>
+          <li><a class="switch-ru" href="#">Русский</a></li>
+          <li><a class="menu-item-download" href="/downloads/spb-ru.pdf" download>Скачать PDF</a></li>
+          <li><a class="menu-item-metro2" href="https://metro2.org/spb">Метро на карте</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div id="map-box">
+        <img src="/img/spb-ru.svg" alt="" class="pannable-image">
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer-item footer-credits">
+        <a class="d-logo" href="https://4d-design.pro/ru"><span class="hidden">4D design</span></a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(function () {
+      var viewer = ImageViewer('.pannable-image', {
+        snapView : false
+      });
+    });
+  </script>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter49074794 = new Ya.Metrika2({
+                      id:49074794,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true
+                  });
+              } catch(e) { }
+          });
+
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks2");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/49074794" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+</body>
+</html>
