@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 @import "reset";
+@import "fonts";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 /* variables */
@@ -17,7 +18,10 @@ $color-bg: #FFF;
 .clearfix {
   &:after { content: ""; display: table; clear: both; }
 }
-.material-icons { font-family: 'Material Icons'; font-weight: normal; font-style: normal; font-size: 24px; display: inline-block;
+
+.material-icons, .icon-left:before, .icon-right:after { font-family: 'Material Icons', 'Material Icons Local'; }
+
+.material-icons { font-weight: normal; font-style: normal; font-size: 24px; display: inline-block;
   width: 1em; height: 1em; line-height: 1; text-transform: none; letter-spacing: normal; word-wrap: normal;
   -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; font-feature-settings: 'liga';
 }

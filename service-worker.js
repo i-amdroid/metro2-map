@@ -1,7 +1,10 @@
 var dataCacheName = 'mm2-pwa';
 var cacheName = 'mm2-pwa';
 var filesToCache = [
-  '/',
+ "./fonts/MaterialIcons-Regular.eot",
+ "./fonts/MaterialIcons-Regular.ttf",
+ "./fonts/MaterialIcons-Regular.woff",
+ "./fonts/MaterialIcons-Regular.woff2",
  "./img/graphic.svg",
  "./img/msk-en.svg",
  "./img/msk-ru.svg",
@@ -13,7 +16,9 @@ var filesToCache = [
  "./img/favicons/icon-512x512.png",
  "./img/favicons/logo-144x144.png",
  "./favicon.ico",
+ "./msk/",
  "./msk/index.html",
+ "./spb/", 
  "./spb/index.html",
  "./manifest.json",
  "./js/app.js",

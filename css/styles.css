@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -48,6 +48,14 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+@font-face {
+  font-family: 'Material Icons Local';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/MaterialIcons-Regular.eot");
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url("../fonts/MaterialIcons-Regular.woff2") format("woff2"), url("../fonts/MaterialIcons-Regular.woff") format("woff"), url("../fonts/MaterialIcons-Regular.ttf") format("truetype"); }
+
 /* variables */
 /* helpful classes */
 .clearfix:after {
@@ -55,8 +63,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: table;
   clear: both; }
 
+.material-icons, .menu-icon:before, .menu-item-download:before, .menu-item-metro2:before, .icon-left:before, .icon-right:after {
+  font-family: 'Material Icons', 'Material Icons Local'; }
+
 .material-icons, .menu-icon:before, .menu-item-download:before, .menu-item-metro2:before {
-  font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
