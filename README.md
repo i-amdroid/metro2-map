@@ -9,7 +9,5 @@ Maps
 ----
 
 ![Moscow metro map](./img/msk-en.svg)
-<img src="./img/msk-en.svg">
 
 ![Saint Petersburg metro map](./img/spb-en.svg)
-<img src="./img/spb-en.svg">
