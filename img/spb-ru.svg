@@ -22,7 +22,7 @@
       }
 
       .cls-15, .cls-19, .cls-21, .cls-26, .cls-5 {
-        font-family: ProductSans-Medium;
+        font-family: Product Sans Medium, ProductSans-Medium;
       }
 
       .cls-6 {
