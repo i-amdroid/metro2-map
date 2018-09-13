@@ -8,6 +8,6 @@ In the design, the main goal was using of established principles and design elem
 Maps
 ----
 
-![Moscow metro map](https://map.metro2.org/img/msk-en.svg)
+![Moscow metro map](./img/msk-en.svg)
 
-![Saint Petersburg metro map](https://map.metro2.org/img/spb-en.svg)
+![Saint Petersburg metro map](./img/spb-en.svg)
