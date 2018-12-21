@@ -24,8 +24,7 @@ var filesToCache = [
  "./js/app.js",
  "./js/custom.js",
  "./js/imageviewer.min.js",
- "./js/jquery-1.11.3.min.js", 
- "./service-worker.js",
+ "./js/jquery-1.11.3.min.js",
  "./css/imageviewer.css",
  "./css/styles.css"
 ];
