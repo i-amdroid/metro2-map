@@ -1,54 +1,111 @@
 (function ($) {
   $(document).ready(function() {
 
-    function setEnValues() {
+    function setEnglishValues() {
+      var data = {};
+
       $('.map-msk #map-box img').attr('src', '/img/msk-en.svg');
       $('.map-msk .map-title').text('Moscow Metro');
+      $('.menu-item-msk').text('Moscow');
+      $('.map-msk .menu-item-download').attr('href', '/downloads/msk-en.pdf');
+      data['map-msk'] = {};
+      data['map-msk']['native-lang'] = 'lang-ru';
+      data['map-msk']['title-en'] = 'Moscow Metro Map';
+
       $('.map-spb #map-box img').attr('src', '/img/spb-en.svg');
       $('.map-spb .map-title').text('Saint Petersburg Metro');
       $('.menu-item-spb').text('Saint Petersburg');
-      $('.menu-item-msk').text('Moscow');
-      $('.menu-item-download').text('Download PDF');
-      $('.map-msk .menu-item-download').attr('href', '/downloads/msk-en.pdf');
       $('.map-spb .menu-item-download').attr('href', '/downloads/spb-en.pdf');
+      data['map-spb'] = {};
+      data['map-spb']['native-lang'] = 'lang-ru';
+      data['map-spb']['title-en'] = 'Saint Petersburg Metro Map';
+
+      $('.map-mnk #map-box img').attr('src', '/img/mnk-en.svg');
+      $('.map-mnk .map-title').text('Minsk Metro');
+      $('.menu-item-mnk').text('Minsk');
+      $('.map-mnk .menu-item-download').attr('href', '/downloads/mnk-en.pdf');
+      data['map-mnk'] = {};
+      data['map-mnk']['native-lang'] = 'lang-by';
+      data['map-mnk']['title-en'] = 'Minsk Metro Map';
+      
+      $('.menu-item-download').text('Download PDF');
       $('.d-logo').attr('href', 'https://4d-design.pro/');
       $('.menu-item-metro2').text('Metro on the Map');
-      $('body').removeClass('lang-ru');
       $('body').addClass('lang-en');
-      if ($('body').hasClass('map-msk')) {
-        $(document).prop('title', 'Moscow Metro Map');
-      } else {
-        $(document).prop('title', 'Saint Petersburg Metro Map');
-      }
+
+      var map = '';
+      var bodyClassList = $('body').attr('class').split(/\s+/);
+      $.each(bodyClassList, function(index, item) {
+        if (item.match("^map-")) {
+          map = item;
+        }
+      });
+
+      $('body').removeClass(data[map]['native-lang']);
+      $(document).prop('title', data[map]['title-en']);
+
     }
 
-    function setRuValues() {
+    function setNativeValues() {
+      var data = {};
+
       $('.map-msk #map-box img').attr('src', '/img/msk-ru.svg');
       $('.map-msk .map-title').text('Московский метрополитен');
+      $('.menu-item-msk').text('Москва');
+      $('.map-msk .menu-item-download').attr('href', '/downloads/msk-ru.pdf');
+      data['map-msk'] = {};
+      data['map-msk']['native-lang'] = 'lang-ru';
+      data['map-msk']['title-na'] = 'Схема метро Москвы';
+
       $('.map-spb #map-box img').attr('src', '/img/spb-ru.svg');
       $('.map-spb .map-title').text('Петербургский метрополитен');
       $('.menu-item-spb').text('Санкт-Петербург');
-      $('.menu-item-msk').text('Москва');
-      $('.menu-item-download').text('Скачать PDF');
-      $('.map-msk .menu-item-download').attr('href', '/downloads/msk-ru.pdf');
       $('.map-spb .menu-item-download').attr('href', '/downloads/spb-ru.pdf');
-      $('.d-logo').attr('href', 'https://4d-design.pro/ru');
+      data['map-spb'] = {};
+      data['map-spb']['native-lang'] = 'lang-ru';
+      data['map-spb']['title-na'] = 'Схема метро Санкт-Петербурга';
+
+      $('.map-mnk #map-box img').attr('src', '/img/mnk-by.svg');
+      $('.map-mnk .map-title').text('Мінскі метрапалітэн');
+      $('.menu-item-mnk').text('Мінск');
+      $('.map-mnk .menu-item-download').attr('href', '/downloads/mnk-by.pdf');
+      data['map-mnk'] = {};
+      data['map-mnk']['native-lang'] = 'lang-by';
+      data['map-mnk']['title-na'] = 'Схема метро Мінска';
+      
       $('.menu-item-metro2').text('Метро на карте');
       $('body').removeClass('lang-en');
-      $('body').addClass('lang-ru');
-      if ($('body').hasClass('map-msk')) {
-        $(document).prop('title', 'Схема метро Москвы');
-      } else {
-        $(document).prop('title', 'Схема метро Санкт-Петербурга');
+
+      var map = '';
+      var bodyClassList = $('body').attr('class').split(/\s+/);
+      $.each(bodyClassList, function(index, item) {
+        if (item.match("^map-")) {
+          map = item;
+        }
+      });
+
+      $('body').addClass(data[map]['native-lang']);
+      $(document).prop('title', data[map]['title-na']);
+
+      switch(data[map]['native-lang']) {
+        case 'lang-ru':
+          $('.menu-item-download').text('Скачать PDF');
+          $('.d-logo').attr('href', 'https://4d-design.pro/ru');
+          break;
+        case 'lang-by':
+          $('.menu-item-download').text('Спампаваць PDF');
+          $('.d-logo').attr('href', 'https://4d-design.pro/');
+          break;
       }
+
     }
 
     if (localStorage.getItem('lang') != 'en') {
-      localStorage.setItem('lang', 'ru');
+      localStorage.setItem('lang', 'na');
     }
 
     if (localStorage.getItem('lang') == 'en') {
-      setEnValues();
+      setEnglishValues();
     };
 
     $('body').addClass('page-loaded');
@@ -71,16 +128,16 @@
     $('.switch-en').click(function(e) {
       e.stopPropagation();
       e.preventDefault();
-      setEnValues();
+      setEnglishValues();
       localStorage.setItem('lang', 'en');
       $('.menu-dropdown').slideUp('fast');
     });
 
-    $('.switch-ru').click(function(e) {
+    $('.switch-na').click(function(e) {
       e.stopPropagation();
       e.preventDefault();
-      setRuValues();
-      localStorage.setItem('lang', 'ru');
+      setNativeValues();
+      localStorage.setItem('lang', 'na');
       $('.menu-dropdown').slideUp('fast');
     });
 
