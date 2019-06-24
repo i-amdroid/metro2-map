@@ -106,7 +106,7 @@
 		</style>
 	</defs>
 	
-  <title>mnk-1.0-by-min</title>
+  <title>mnk-11-by-min</title>
   <g class="cls-2">
     <g>
       <path class="cls-3" d="M-90.71,45.35H194.7a22.67,22.67,0,0,1,16,6.65L401.55,242.81a22.68,22.68,0,0,1,6.64,16V421.47a22.68,22.68,0,0,0,6.64,16l32.07,32.07a22.68,22.68,0,0,0,16,6.64H580.21a22.68,22.68,0,0,1,16,6.64L725.92,612.53"/>
@@ -157,7 +157,7 @@
       </g>
       <text class="cls-14" transform="translate(294.21 138.23) rotate(45)">р. Свіслач</text>
       <g>
-        <rect class="cls-9" x="401.43" y="261.35" width="65.1" height="21.54"/>
+        <rect class="cls-9" x="401.43" y="261.35" width="1.58" height="21.54"/>
         <text class="cls-10" transform="translate(406.42 269.13)">Кастрычніцкая<tspan x="0" y="9.6">Купалаўская</tspan></text>
       </g>
       <g>
@@ -241,12 +241,12 @@
         <text class="cls-12" transform="translate(648.46 450.54)">Магілёўская</text>
       </g>
       <g>
-        <rect class="cls-9" x="219.73" y="261.35" width="92.08" height="21.54"/>
-        <text class="cls-16" transform="translate(278.4 269.4)">Плошча<tspan x="-54.67" y="9.6">Францішка Багушэвіча</tspan></text>
+        <rect class="cls-9" x="219.73" y="262.2" width="92.08" height="19.84"/>
+        <text class="cls-16" transform="translate(278.4 270.5)">Плошча<tspan x="-54.67" y="8">Францішка Багушэвіча</tspan></text>
       </g>
       <g>
-        <rect class="cls-9" x="369.01" y="352.06" width="51.59" height="21.54"/>
-        <text class="cls-16" transform="translate(372.81 359.84)">Кавальская<tspan x="0" y="9.6">Слабада</tspan></text>
+        <rect class="cls-9" x="369.01" y="352.91" width="51.59" height="19.84"/>
+        <text class="cls-16" transform="translate(372.81 361.21)">Кавальская<tspan x="0" y="8">Слабада</tspan></text>
       </g>
       <g>
         <rect class="cls-9" x="322.91" y="200.92" width="86.46" height="21.54"/>
@@ -268,27 +268,27 @@
       <line class="cls-6" x1="330.27" y1="216.21" x2="326.3" y2="216.21"/>
       <g>
         <circle class="cls-11" cx="689.23" cy="36.44" r="5.67"/>
-        <text class="cls-12" transform="translate(687.61 38.81)">1</text>
+        <text class="cls-12" transform="translate(687.61 39.09)">1</text>
       </g>
       <g>
         <circle class="cls-13" cx="34.02" cy="226.77" r="5.67"/>
-        <text class="cls-12" transform="translate(31.89 229.14)">2</text>
+        <text class="cls-12" transform="translate(31.89 229.43)">2</text>
       </g>
       <g>
         <circle class="cls-19" cx="317.48" cy="209.47" r="5.67"/>
-        <text class="cls-12" transform="translate(315.3 211.84)">3</text>
+        <text class="cls-12" transform="translate(315.3 212.12)">3</text>
       </g>
       <g>
         <circle class="cls-13" cx="643.6" cy="462.19" r="5.67"/>
-        <text class="cls-12" transform="translate(641.48 464.56)">2</text>
+        <text class="cls-12" transform="translate(641.48 464.84)">2</text>
       </g>
       <g>
         <circle class="cls-11" cx="104.21" cy="484.79" r="5.67"/>
-        <text class="cls-12" transform="translate(102.59 487.16)">1</text>
+        <text class="cls-12" transform="translate(102.59 487.44)">1</text>
       </g>
       <g>
         <circle class="cls-19" cx="363.34" cy="510.24" r="5.67"/>
-        <text class="cls-12" transform="translate(361.15 512.61)">3</text>
+        <text class="cls-12" transform="translate(361.15 512.89)">3</text>
       </g>
       <line class="cls-17" x1="684.32" y1="49.36" x2="676.3" y2="41.34"/>
       <line class="cls-18" x1="45.35" y1="220.59" x2="45.35" y2="231.92"/>
