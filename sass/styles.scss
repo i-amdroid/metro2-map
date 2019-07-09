@@ -56,12 +56,14 @@ a { text-decoration: none; color: $color-text; }
   .map-msk & .logo { background-position: 0 0; }
   .map-spb & .logo { background-position: -24px 0; }
   .map-mnk & .logo { background-position: -48px 0; }
+  .map-cph & .logo { background-position: -72px 0; }
   .map-title { font-weight: 500; }
   @media (min-width: 350px) {
     .logo { margin-right: 12px; margin-left: 8px; }
     .logo { width: 32px; height: 32px; background-size: auto 64px; }
     .map-spb & .logo { background-position: -32px 0; }
     .map-mnk & .logo { background-position: -64px 0; }
+    .map-cph & .logo { background-position: -96px 0; }
   }
   @media (min-width: 380px) {
     .map-title { font-size: 18px; }
@@ -81,16 +83,18 @@ a { text-decoration: none; color: $color-text; }
 }
 .lang-ru .switch-na { display: none; }
 .lang-by .switch-na { display: none; }
+.lang-da .switch-na { display: none; }
 .lang-en .switch-en { display: none; }
 
-.menu-item-msk, .menu-item-spb, .menu-item-mnk, .menu-item-download, .menu-item-metro2, .switch-en, .switch-na {
+.menu-item-msk, .menu-item-spb, .menu-item-mnk, .menu-item-cph, .menu-item-download, .menu-item-metro2, .switch-en, .switch-na {
   .menu-dropdown li & { display: flex; align-items: center; }
 }
-.menu-item-msk, .menu-item-spb, .menu-item-mnk {
+.menu-item-msk, .menu-item-spb, .menu-item-mnk, .menu-item-cph {
   &:before { display: block; content: ''; width: 24px; height: 24px; background: url('../img/graphic.svg') no-repeat; margin-right: 12px; }
 }
 .menu-item-spb:before { background-position: -24px 0; }
 .menu-item-mnk:before { background-position: -48px 0; }
+.menu-item-cph:before { background-position: -72px 0; }
 
 .menu-item-download, .menu-item-metro2 {
   &:before { @extend .material-icons; display: block; width: 24px; height: 24px; color: rgba(#000, .5); margin-right: 12px; }
@@ -114,6 +118,10 @@ a { text-decoration: none; color: $color-text; }
 .switch-na { 
   .lang-by .menu-dropdown li & { display: none; }
   .native-lang-by &:before { content: 'BY'; }
+}
+.switch-na { 
+  .lang-da .menu-dropdown li & { display: none; }
+  .native-lang-da &:before { content: 'DA'; }
 }
 .switch-en {
   .lang-en .menu-dropdown li & { display: none; }

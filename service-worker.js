@@ -1,5 +1,5 @@
-var dataCacheName = 'mm2-pwa-v1.3';
-var cacheName = 'mm2-pwa-v1.3';
+var dataCacheName = 'mm2-pwa-v1.4';
+var cacheName = 'mm2-pwa-v1.4';
 var filesToCache = [
  "./fonts/MaterialIcons-Regular.eot",
  "./fonts/MaterialIcons-Regular.ttf",
@@ -12,6 +12,8 @@ var filesToCache = [
  "./img/spb-ru.svg",
  "./img/mnk-en.svg",
  "./img/mnk-by.svg",
+ "./img/cph-en.svg",
+ "./img/cph-da.svg",
  "./img/favicons/icon-16x16.png",
  "./img/favicons/icon-32x32.png",
  "./img/favicons/icon-192x192.png",
@@ -24,6 +26,8 @@ var filesToCache = [
  "./spb/index.html",
  "./mnk/",
  "./mnk/index.html",
+ "./cph/",
+ "./cph/index.html",
  "./manifest.json",
  "./js/app.js",
  "./js/custom.js",

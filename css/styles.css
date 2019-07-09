@@ -148,6 +148,9 @@ a {
 .map-mnk .navbar-title .logo {
   background-position: -48px 0; }
 
+.map-cph .navbar-title .logo {
+  background-position: -72px 0; }
+
 .navbar-title .map-title {
   font-weight: 500; }
 
@@ -162,7 +165,9 @@ a {
   .map-spb .navbar-title .logo {
     background-position: -32px 0; }
   .map-mnk .navbar-title .logo {
-    background-position: -64px 0; } }
+    background-position: -64px 0; }
+  .map-cph .navbar-title .logo {
+    background-position: -96px 0; } }
 
 @media (min-width: 380px) {
   .navbar-title .map-title {
@@ -207,14 +212,17 @@ a {
 .lang-by .switch-na {
   display: none; }
 
+.lang-da .switch-na {
+  display: none; }
+
 .lang-en .switch-en {
   display: none; }
 
-.menu-dropdown li .menu-item-msk, .menu-dropdown li .menu-item-spb, .menu-dropdown li .menu-item-mnk, .menu-dropdown li .menu-item-download, .menu-dropdown li .menu-item-metro2, .menu-dropdown li .switch-en, .menu-dropdown li .switch-na {
+.menu-dropdown li .menu-item-msk, .menu-dropdown li .menu-item-spb, .menu-dropdown li .menu-item-mnk, .menu-dropdown li .menu-item-cph, .menu-dropdown li .menu-item-download, .menu-dropdown li .menu-item-metro2, .menu-dropdown li .switch-en, .menu-dropdown li .switch-na {
   display: flex;
   align-items: center; }
 
-.menu-item-msk:before, .menu-item-spb:before, .menu-item-mnk:before {
+.menu-item-msk:before, .menu-item-spb:before, .menu-item-mnk:before, .menu-item-cph:before {
   display: block;
   content: '';
   width: 24px;
@@ -227,6 +235,9 @@ a {
 
 .menu-item-mnk:before {
   background-position: -48px 0; }
+
+.menu-item-cph:before {
+  background-position: -72px 0; }
 
 .menu-item-download:before, .menu-item-metro2:before {
   display: block;
@@ -265,6 +276,12 @@ a {
 
 .native-lang-by .switch-na:before {
   content: 'BY'; }
+
+.lang-da .menu-dropdown li .switch-na {
+  display: none; }
+
+.native-lang-da .switch-na:before {
+  content: 'DA'; }
 
 .lang-en .menu-dropdown li .switch-en {
   display: none; }
@@ -331,3 +348,5 @@ a {
     color: rgba(0, 0, 0, 0.87); }
     .menu-dropdown li a:hover {
       background: #eeeeee; }
+
+/*# sourceMappingURL=../css/styles.css.map */

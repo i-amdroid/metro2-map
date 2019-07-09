@@ -5,6 +5,7 @@ Maps:
 
 * Moscow
 * St. Petersburg
+* Copenhagen
 * Minsk
 
 The maps have been designed for use on various devices, but especially for mobile devices.  
@@ -14,8 +15,10 @@ In the design, the main goal was using of established principles and design elem
 Maps
 ----
 
-![Moscow metro map](./img/msk-en.svg)
+![Moscow Metro map](./img/msk-en.svg)
 
-![Saint Petersburg metro map](./img/spb-en.svg)
+![Saint Petersburg Metro map](./img/spb-en.svg)
 
-![Minsk metro map](./img/mnk-en.svg)
+![Copenhagen Metro and S-train map](./img/cph-en.svg)
+
+![Minsk Metro map](./img/mnk-en.svg)

@@ -1,43 +1,32 @@
 var gulp = require('gulp');
-var watch = require('gulp-watch');
-var batch = require('gulp-batch');
 var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
-var imagemin = require('gulp-imagemin');
 
 var SASS = 'sass';
 var CSS = 'css';
-var IMG = 'img';
 
 var sassOptions = {
   includePaths: ['./node_modules/breakpoint-sass/stylesheets']
 };
 
-var autoprefixerOptions = {
-  browsers: ['> 1%']
-};
-
 // tasks
 
-gulp.task('sass', function () {
-  return gulp.src(SASS + '/**/*.scss')
+gulp.task('sass', done => {
+  gulp.src(SASS + '/**/*.scss')
+    .pipe(sourcemaps.init())
     .pipe(sass.sync(sassOptions).on('error', sass.logError))
-    .pipe(autoprefixer(autoprefixerOptions))
+    .pipe(autoprefixer({}))
+    .pipe(sourcemaps.write('../css'))
     .pipe(gulp.dest(CSS));
+  done();
 });
 
-gulp.task('imagemin', function() {
-  gulp.src(IMG + '/src/*')
-    .pipe(imagemin())
-    .pipe(gulp.dest(IMG));
-});
-
-gulp.task('build', ['sass', 'imagemin']);
+gulp.task('build', gulp.series('sass'));
 
 gulp.task('watch', function () {
-  watch(SASS + '/**/*.scss', batch(function (events, done) {
-    gulp.start('build', done);
-  }));
+  return gulp.watch(SASS + '/**/*.scss', gulp.series(gulp.series('sass')));
 });
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', gulp.series('build', 'watch'));
+

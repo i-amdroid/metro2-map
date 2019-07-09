@@ -27,6 +27,14 @@
       data['map-mnk'] = {};
       data['map-mnk']['native-lang'] = 'lang-by';
       data['map-mnk']['title-en'] = 'Minsk Metro Map';
+
+      $('.map-cph #map-box img').attr('src', '/img/cph-en.svg');
+      $('.map-cph .map-title').text('Copenhagen Metro and S-train');
+      $('.menu-item-cph').text('Copenhagen');
+      $('.map-cph .menu-item-download').attr('href', '/downloads/cph-en.pdf');
+      data['map-cph'] = {};
+      data['map-cph']['native-lang'] = 'lang-da';
+      data['map-cph']['title-en'] = 'Copenhagen Metro and S-train Map';
       
       $('.menu-item-download').text('Download PDF');
       $('.d-logo').attr('href', 'https://4d-design.pro/');
@@ -72,6 +80,14 @@
       data['map-mnk'] = {};
       data['map-mnk']['native-lang'] = 'lang-by';
       data['map-mnk']['title-na'] = 'Схема метро Мінска';
+
+      $('.map-cph #map-box img').attr('src', '/img/cph-da.svg');
+      $('.map-cph .map-title').text('Københavns Metro og S-tog');
+      $('.menu-item-cph').text('København');
+      $('.map-cph .menu-item-download').attr('href', '/downloads/cph-da.pdf');
+      data['map-cph'] = {};
+      data['map-cph']['native-lang'] = 'lang-da';
+      data['map-cph']['title-na'] = 'Kort over Københavns Metro og S-tog';
       
       $('.menu-item-metro2').text('Метро на карте');
       $('body').removeClass('lang-en');
@@ -96,6 +112,10 @@
           $('.menu-item-download').text('Спампаваць PDF');
           $('.d-logo').attr('href', 'https://4d-design.pro/');
           break;
+        case 'lang-da':
+          $('.menu-item-download').text('Download PDF');
+          $('.d-logo').attr('href', 'https://4d-design.pro/');
+          break;  
       }
 
     }

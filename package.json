@@ -1,21 +1,26 @@
 {
-  "name": "custom_theme",
-  "version": "1.0",
-  "description": "Drupal theme.",
-  "main": "index.js",
+  "name": "map.metro2",
+  "version": "1.0.0",
+  "description": "Metro map SPA",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "iamdroid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-amdroid/metro2-map.git"
+  },
+  "author": "mdrdnt@gmail.com",
   "license": "ISC",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/i-amdroid/metro2-map/issues"
+  },
+  "homepage": "https://github.com/i-amdroid/metro2-map#readme",
   "devDependencies": {
     "breakpoint-sass": "^2.7.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-batch": "^1.0.5",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-watch": "^5.0.0"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
