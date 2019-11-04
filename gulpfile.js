@@ -25,7 +25,7 @@ gulp.task('sass', done => {
 gulp.task('build', gulp.series('sass'));
 
 gulp.task('watch', function () {
-  return gulp.watch(SASS + '/**/*.scss', gulp.series(gulp.series('sass')));
+  return gulp.watch(SASS + '/**/*.scss', gulp.series('sass'));
 });
 
 gulp.task('default', gulp.series('build', 'watch'));

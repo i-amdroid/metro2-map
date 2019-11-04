@@ -205,6 +205,10 @@ a {
   #options-menu .disabled {
     pointer-events: none;
     opacity: 0.5; }
+  #options-menu .divider-top {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    margin-top: 8px;
+    padding-top: 8px; }
 
 .lang-ru .switch-na {
   display: none; }

@@ -80,6 +80,7 @@ a { text-decoration: none; color: $color-text; }
 #options-menu { right: 12px; margin-top: 8px; width: 220px;
   .current { pointer-events: none; font-weight: 500; border-bottom: 1px solid rgba(#000, 0.12); margin-bottom: 8px; padding-bottom: 8px; }
   .disabled { pointer-events: none; opacity: 0.5; }
+  .divider-top { border-top: 1px solid rgba(#000, 0.12); margin-top: 8px; padding-top: 8px; }
 }
 .lang-ru .switch-na { display: none; }
 .lang-by .switch-na { display: none; }
