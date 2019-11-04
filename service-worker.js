@@ -1,5 +1,5 @@
-var dataCacheName = 'mm2-pwa-v1.4';
-var cacheName = 'mm2-pwa-v1.4';
+var dataCacheName = 'mm2-pwa-v1.5';
+var cacheName = 'mm2-pwa-v1.5';
 var filesToCache = [
  "./fonts/MaterialIcons-Regular.eot",
  "./fonts/MaterialIcons-Regular.ttf",

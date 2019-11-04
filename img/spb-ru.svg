@@ -1,7 +1,7 @@
 <svg id="transfer_stations" data-name="transfer stations" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192mm" height="264mm" viewBox="0 0 544.25 748.35">
   <defs>
     <style>
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-27, .cls-29, .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-26, .cls-28, .cls-6, .cls-7, .cls-8, .cls-9 {
         fill: none;
       }
 
@@ -17,11 +17,11 @@
         fill: #58595b;
       }
 
-      .cls-26, .cls-5 {
+      .cls-25, .cls-5 {
         font-size: 6px;
       }
 
-      .cls-15, .cls-19, .cls-21, .cls-26, .cls-5 {
+      .cls-14, .cls-18, .cls-20, .cls-25, .cls-5 {
         font-family: Product Sans Medium, ProductSans-Medium;
         font-weight: 500;
       }
@@ -30,11 +30,11 @@
         stroke: #3bb54a;
       }
 
-      .cls-10, .cls-11, .cls-12, .cls-13, .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-10, .cls-11, .cls-12, .cls-6, .cls-7, .cls-8, .cls-9 {
         stroke-linejoin: round;
       }
 
-      .cls-10, .cls-11, .cls-12, .cls-13, .cls-27, .cls-29, .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-10, .cls-11, .cls-12, .cls-26, .cls-28, .cls-6, .cls-7, .cls-8, .cls-9 {
         stroke-width: 4px;
       }
 
@@ -43,86 +43,82 @@
       }
 
       .cls-8 {
-        stroke: #ccb4d7;
-      }
-
-      .cls-9 {
         stroke: #804098;
       }
 
-      .cls-10 {
+      .cls-9 {
         stroke: #d1baa7;
       }
 
-      .cls-11, .cls-29 {
+      .cls-10, .cls-28 {
         stroke: #ef4137;
       }
 
-      .cls-12, .cls-27 {
+      .cls-11, .cls-26 {
         stroke: #1b75bc;
       }
 
-      .cls-13 {
+      .cls-12 {
         stroke: #ffd69f;
       }
 
-      .cls-14, .cls-21, .cls-30 {
+      .cls-13, .cls-20, .cls-29 {
         fill: #fff;
       }
 
-      .cls-14 {
+      .cls-13 {
         opacity: 0.5;
       }
 
-      .cls-15, .cls-19, .cls-21 {
+      .cls-14, .cls-18, .cls-20 {
         font-size: 8px;
       }
 
-      .cls-15 {
+      .cls-14 {
         fill: #231f20;
       }
 
-      .cls-16, .cls-19 {
+      .cls-15, .cls-18 {
         fill: #939598;
       }
 
-      .cls-17 {
+      .cls-16 {
         letter-spacing: -0.01em;
       }
 
-      .cls-18 {
+      .cls-17 {
         letter-spacing: 0em;
       }
 
-      .cls-20, .cls-26 {
+      .cls-19, .cls-25 {
         fill: #1b75bc;
       }
 
-      .cls-22 {
+      .cls-21 {
         fill: #ef4138;
       }
 
-      .cls-23 {
+      .cls-22 {
         fill: #3cb54a;
       }
 
-      .cls-24 {
+      .cls-23 {
         fill: #7f3f98;
       }
 
-      .cls-25 {
+      .cls-24 {
         fill: #fbb043;
       }
 
-      .cls-27, .cls-29, .cls-30 {
+      .cls-26, .cls-28, .cls-29 {
         stroke-miterlimit: 10;
       }
 
-      .cls-28 {
+      .cls-27 {
         fill: #8d5b2d;
       }
 
-      .cls-30 {
+      .cls-29 {
         stroke: #231f20;
         stroke-width: 2px;
       }
@@ -141,7 +137,7 @@
 		</style>
 	</defs>
 	
-  <title>spb-12-ru-min</title>
+  <title>spb-1.3-ru-min</title>
   <g class="cls-2">
     <g>
       <path class="cls-3" d="M396.85,305.81H279a2.83,2.83,0,0,1-2.83-2.83V260.79a26.68,26.68,0,0,0-26.68-26.68H-45.35V419.53h.13V524.29l-4.38,4.38,8.49,8.49L176.67,319.37a5.34,5.34,0,0,1,3.77-1.56H396.85a28,28,0,0,1,28,28V819.21h12V345.83A40,40,0,0,0,396.85,305.81ZM178.26,247l-19,19a7.35,7.35,0,0,1-5.19,2.15H39.68A5.66,5.66,0,0,1,34,262.46V247.78a5.66,5.66,0,0,1,5.66-5.67H176.25A2.84,2.84,0,0,1,178.26,247ZM11.34,404.19V284.63a8.5,8.5,0,0,1,8.5-8.5H98a5.64,5.64,0,0,1,4,1.66l47.61,47.61a2.83,2.83,0,0,1,0,4L65.21,413.87a5.7,5.7,0,0,1-4,1.66H22.68A11.34,11.34,0,0,1,11.34,404.19Zm156.84-93.3-8.85,8.85a2.83,2.83,0,0,1-4,0L116.54,281a2.83,2.83,0,0,1,2-4.83H154a15.24,15.24,0,0,0,10.85-4.5l27.86-27.86a5.7,5.7,0,0,1,4-1.66h52.69a18.68,18.68,0,0,1,18.68,18.68V303a2.84,2.84,0,0,1-2.84,2.83H180.44A17.38,17.38,0,0,0,168.18,310.89Z"/>
@@ -180,378 +176,377 @@
       </g>
       <path class="cls-6" d="M45.35,215.43V290.1a11.37,11.37,0,0,0,3.32,8l38.72,38.72a11.35,11.35,0,0,0,8,3.32H358.14a11.35,11.35,0,0,1,8,3.32l38.71,38.71a11.37,11.37,0,0,1,3.32,8V691.65"/>
       <path class="cls-7" d="M498.9,487.56v-52a11.35,11.35,0,0,0-3.32-8l-38.72-38.72a11.35,11.35,0,0,0-8-3.32H226.77"/>
-      <line class="cls-8" x1="317.48" y1="589.61" x2="317.48" y2="691.59"/>
-      <path class="cls-9" d="M317.48,589.61V480.92a11.33,11.33,0,0,0-3.32-8L294.8,453.54l-34-34-34-34-45.35-45.35-42-42a11.35,11.35,0,0,1-3.32-8V181.42"/>
-      <polyline class="cls-10" points="294.86 453.32 226.8 521.57 135.99 612.15 102.05 646.3"/>
-      <path class="cls-11" d="M317.48,56.69V358.14a11.35,11.35,0,0,1-3.32,8L294.8,385.51l-34,34-34,34-87.39,87.39a11.37,11.37,0,0,0-3.32,8v142.7"/>
-      <polyline class="cls-12" points="226.77 56.69 226.77 340.16 226.77 385.51 226.77 453.54 226.77 521.58 226.77 691.65"/>
-      <line class="cls-13" x1="79.37" y1="385.51" x2="226.77" y2="385.51"/>
+      <path class="cls-8" d="M136.06,181.42V290.11a11.35,11.35,0,0,0,3.32,8l42,42,45.35,45.35,34,34,34,34,19.36,19.36a11.33,11.33,0,0,1,3.32,8V691.59"/>
+      <polyline class="cls-9" points="294.86 453.32 226.8 521.57 135.99 612.15 102.05 646.3"/>
+      <path class="cls-10" d="M317.48,56.69V358.14a11.35,11.35,0,0,1-3.32,8L294.8,385.51l-34,34-34,34-87.39,87.39a11.37,11.37,0,0,0-3.32,8v142.7"/>
+      <polyline class="cls-11" points="226.77 56.69 226.77 340.16 226.77 385.51 226.77 453.54 226.77 521.58 226.77 691.65"/>
+      <line class="cls-12" x1="79.37" y1="385.51" x2="226.77" y2="385.51"/>
       <g>
-        <rect class="cls-14" x="232.44" y="80.79" width="58.11" height="19.84"/>
-        <text class="cls-15" transform="translate(236.24 89.08)">Проспект<tspan x="0" y="8">Просвещения</tspan></text>
+        <rect class="cls-13" x="232.44" y="80.79" width="58.11" height="19.84"/>
+        <text class="cls-14" transform="translate(236.24 89.08)">Проспект<tspan x="0" y="8">Просвещения</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="119.05" width="36.58" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 127.1)">Озерки</text>
+        <rect class="cls-13" x="232.44" y="119.05" width="36.58" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 127.1)">Озерки</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="153.15" width="44.53" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 161.19)">Удельная</text>
+        <rect class="cls-13" x="232.44" y="153.15" width="44.53" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 161.19)">Удельная</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="187.09" width="51.94" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 195.13)">Пионерская</text>
+        <rect class="cls-13" x="232.44" y="187.09" width="51.94" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 195.13)">Пионерская</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="221.1" width="57.22" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 229.14)">Чёрная речка</text>
+        <rect class="cls-13" x="232.44" y="221.1" width="57.22" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 229.14)">Чёрная речка</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="255.12" width="14.68" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 263.16)">Петроградская</text>
+        <rect class="cls-13" x="232.44" y="255.12" width="14.68" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 263.16)">Петроградская</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="289.13" width="20.75" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 297.17)">Горьковская</text>
+        <rect class="cls-13" x="232.44" y="289.13" width="20.75" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 297.17)">Горьковская</text>
       </g>
       <g>
-        <rect class="cls-14" x="229.88" y="344.96" width="80.96" height="21.54"/>
-        <text class="cls-15" transform="translate(240.24 352.74)">Невский проспект<tspan x="0" y="9.6">Гостиный двор</tspan></text>
+        <rect class="cls-13" x="229.88" y="344.96" width="80.96" height="21.54"/>
+        <text class="cls-14" transform="translate(240.24 352.74)">Невский проспект<tspan x="0" y="9.6">Гостиный двор</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="148.97" y="438.19" width="64.47" height="19.84"/>
-        <text class="cls-15" transform="translate(152.27 446.48)">Технологический<tspan x="32.3" y="8">институт</tspan></text>
+        <rect class="cls-13" x="148.97" y="438.19" width="64.47" height="19.84"/>
+        <text class="cls-14" transform="translate(152.27 446.48)">Технологический<tspan x="32.3" y="8">институт</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="164.92" y="481.89" width="56.18" height="11.34"/>
-        <text class="cls-15" transform="translate(168.05 489.93)">Фрунзенская</text>
+        <rect class="cls-13" x="164.92" y="481.89" width="56.18" height="11.34"/>
+        <text class="cls-14" transform="translate(168.05 489.93)">Фрунзенская</text>
       </g>
       <g>
-        <rect class="cls-14" x="243.97" y="512.5" width="49.57" height="29.48"/>
-        <text class="cls-15" transform="translate(243.97 520.82)">Московские<tspan x="0" y="8">ворота</tspan><tspan class="cls-16"><tspan x="0" y="17.6">Заставская</tspan></tspan></text>
+        <rect class="cls-13" x="243.97" y="512.5" width="49.57" height="29.48"/>
+        <text class="cls-14" transform="translate(243.97 520.82)">Московские<tspan x="0" y="8">ворота</tspan><tspan class="cls-15"><tspan x="0" y="17.6">Заставская</tspan></tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="549.92" width="58.19" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 557.96)">Электросила</text>
+        <rect class="cls-13" x="232.44" y="549.92" width="58.19" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 557.96)">Электросила</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="583.94" width="58.19" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 591.98)">Парк Победы</text>
+        <rect class="cls-13" x="232.44" y="583.94" width="58.19" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 591.98)">Парк Победы</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="617.95" width="52.47" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 625.99)">Московская</text>
+        <rect class="cls-13" x="232.44" y="617.95" width="52.47" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 625.99)">Московская</text>
       </g>
       <g>
-        <rect class="cls-14" x="232.44" y="651.97" width="42.61" height="11.34"/>
-        <text class="cls-15" transform="translate(236.24 660.01)">Звё<tspan class="cls-17" x="12.8" y="0">з</tspan><tspan class="cls-18" x="16.65" y="0">дная</tspan></text>
+        <rect class="cls-13" x="232.44" y="651.97" width="42.61" height="11.34"/>
+        <text class="cls-14" transform="translate(236.24 660.01)">Звё<tspan class="cls-16" x="12.8" y="0">з</tspan><tspan class="cls-17" x="16.65" y="0">дная</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="80.79" width="56.97" height="19.84"/>
-        <text class="cls-15" transform="translate(326.95 89.08)">Гражданский<tspan x="0" y="8">проспект</tspan></text>
+        <rect class="cls-13" x="323.15" y="80.79" width="56.97" height="19.84"/>
+        <text class="cls-14" transform="translate(326.95 89.08)">Гражданский<tspan x="0" y="8">проспект</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="119.05" width="65.8" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 127.1)">Академическая</text>
+        <rect class="cls-13" x="323.15" y="119.05" width="65.8" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 127.1)">Академическая</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="153.07" width="72.89" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 161.11)">Политехническая</text>
+        <rect class="cls-13" x="323.15" y="153.07" width="72.89" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 161.11)">Политехническая</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="187.09" width="82.18" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 195.13)">Площадь Мужества</text>
+        <rect class="cls-13" x="323.15" y="187.09" width="82.18" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 195.13)">Площадь Мужества</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="221.1" width="34.89" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 229.14)">Лесная</text>
+        <rect class="cls-13" x="323.15" y="221.1" width="34.89" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 229.14)">Лесная</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="255.12" width="52.24" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 263.16)">Выборгская</text>
+        <rect class="cls-13" x="323.15" y="255.12" width="52.24" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 263.16)">Выборгская</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="289.13" width="72.89" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 297.17)">Площадь Ленина</text>
+        <rect class="cls-13" x="323.15" y="289.13" width="72.89" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 297.17)">Площадь Ленина</text>
       </g>
-      <text class="cls-15" transform="translate(326.95 325.85)">Чернышевская</text>
+      <text class="cls-14" transform="translate(326.95 325.85)">Чернышевская</text>
       <g>
-        <rect class="cls-14" x="320.51" y="344.96" width="90.03" height="11.34"/>
-        <text class="cls-15" transform="translate(330.95 352.74)">Площадь Восстания<tspan x="0" y="9.6">Маяковская</tspan></text>
+        <rect class="cls-13" x="320.51" y="344.96" width="90.03" height="11.34"/>
+        <text class="cls-14" transform="translate(330.95 352.74)">Площадь Восстания<tspan x="0" y="9.6">Маяковская</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="296.61" y="390.6" width="70.36" height="21.54"/>
-        <text class="cls-15" transform="translate(307.26 398.37)">Владимирская<tspan x="0" y="9.6">Достоевская</tspan></text>
+        <rect class="cls-13" x="296.61" y="390.6" width="70.36" height="21.54"/>
+        <text class="cls-14" transform="translate(307.26 398.37)">Владимирская<tspan x="0" y="9.6">Достоевская</tspan></text>
       </g>
-      <text class="cls-15" transform="translate(313.92 376.54)">Лиговский проспект</text>
+      <text class="cls-14" transform="translate(313.92 376.54)">Лиговский проспект</text>
       <g>
-        <rect class="cls-14" x="267.57" y="419.74" width="75.18" height="15.95"/>
-        <text class="cls-15" transform="translate(278 421.92)">Пушкинская<tspan x="0" y="9.6">Звенигородская</tspan></text>
+        <rect class="cls-13" x="267.57" y="419.74" width="75.18" height="15.95"/>
+        <text class="cls-14" transform="translate(278 421.92)">Пушкинская<tspan x="0" y="9.6">Звенигородская</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="115.96" y="496.63" width="51.54" height="11.34"/>
-        <text class="cls-15" transform="translate(120.67 504.67)">Балтийская</text>
+        <rect class="cls-13" x="115.96" y="496.63" width="51.54" height="11.34"/>
+        <text class="cls-14" transform="translate(120.67 504.67)">Балтийская</text>
       </g>
       <g>
-        <rect class="cls-14" x="87.18" y="549.92" width="42.96" height="11.34"/>
-        <text class="cls-15" transform="translate(91.27 557.96)">Нарвская</text>
+        <rect class="cls-13" x="87.18" y="549.92" width="42.96" height="11.34"/>
+        <text class="cls-14" transform="translate(91.27 557.96)">Нарвская</text>
       </g>
-      <text class="cls-15" transform="translate(54.83 604.65)">Кировский завод<tspan class="cls-16"><tspan x="16.09" y="9.6">Путиловская</tspan></tspan></text>
+      <text class="cls-14" transform="translate(54.83 604.65)">Кировский завод<tspan class="cls-15"><tspan x="16.09" y="9.6">Путиловская</tspan></tspan></text>
       <g>
-        <rect class="cls-14" x="141.73" y="629.29" width="34.1" height="11.34"/>
-        <text class="cls-15" transform="translate(145.53 637.33)">Автово</text>
+        <rect class="cls-13" x="141.73" y="629.29" width="34.1" height="11.34"/>
+        <text class="cls-14" transform="translate(145.53 637.33)">Автово</text>
       </g>
       <g>
-        <rect class="cls-14" x="141.73" y="653.39" width="48.91" height="19.84"/>
-        <text class="cls-15" transform="translate(145.53 661.68)">Ленинский<tspan x="0" y="8">проспект</tspan></text>
+        <rect class="cls-13" x="141.73" y="653.39" width="48.91" height="19.84"/>
+        <text class="cls-14" transform="translate(145.53 661.68)">Ленинский<tspan x="0" y="8">проспект</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="51.02" y="249.45" width="72.89" height="11.34"/>
-        <text class="cls-15" transform="translate(54.82 257.49)">Новокрестовская</text>
+        <rect class="cls-13" x="51.02" y="249.45" width="72.89" height="11.34"/>
+        <text class="cls-14" transform="translate(54.82 257.49)">Новокрестовская</text>
       </g>
       <g>
-        <rect class="cls-14" x="64.96" y="297.88" width="53.45" height="11.34"/>
-        <text class="cls-15" transform="translate(68.76 305.93)">Приморская</text>
+        <rect class="cls-13" x="64.96" y="297.88" width="53.45" height="11.34"/>
+        <text class="cls-14" transform="translate(68.76 305.93)">Приморская</text>
       </g>
       <g>
-        <rect class="cls-14" x="155.65" y="347.07" width="27.15" height="11.34"/>
-        <text class="cls-15" transform="translate(115.73 355.11)">Адмиралтейская</text>
+        <rect class="cls-13" x="155.65" y="347.07" width="27.15" height="11.34"/>
+        <text class="cls-14" transform="translate(115.73 355.11)">Адмиралтейская</text>
       </g>
       <g>
-        <rect class="cls-14" x="91.68" y="323.15" width="44.38" height="11.34"/>
-        <text class="cls-15" transform="translate(82.44 331.19)">Василеостровская</text>
+        <rect class="cls-13" x="91.68" y="323.15" width="44.38" height="11.34"/>
+        <text class="cls-14" transform="translate(82.44 331.19)">Василеостровская</text>
       </g>
       <g>
-        <rect class="cls-14" x="412.19" y="360.11" width="5.46" height="19.84"/>
-        <text class="cls-15" transform="translate(415.99 368.4)">Площадь<tspan x="0" y="8">Александра Невского</tspan></text>
+        <rect class="cls-13" x="412.19" y="360.11" width="5.46" height="19.84"/>
+        <text class="cls-14" transform="translate(415.99 368.4)">Площадь<tspan x="0" y="8">Александра Невского</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="413.86" y="464.89" width="7.6" height="11.34"/>
-        <text class="cls-15" transform="translate(417.66 472.93)">Елизаровская</text>
+        <rect class="cls-13" x="413.86" y="464.89" width="7.6" height="11.34"/>
+        <text class="cls-14" transform="translate(417.66 472.93)">Елизаровская</text>
       </g>
       <g>
-        <rect class="cls-14" x="413.86" y="515.91" width="5.62" height="11.34"/>
-        <text class="cls-15" transform="translate(417.66 523.95)">Ломоносовская</text>
+        <rect class="cls-13" x="413.86" y="515.91" width="5.62" height="11.34"/>
+        <text class="cls-14" transform="translate(417.66 523.95)">Ломоносовская</text>
       </g>
       <g>
-        <rect class="cls-14" x="413.86" y="566.93" width="8.86" height="11.34"/>
-        <text class="cls-15" transform="translate(417.66 574.97)">Пролетарская</text>
+        <rect class="cls-13" x="413.86" y="566.93" width="8.86" height="11.34"/>
+        <text class="cls-14" transform="translate(417.66 574.97)">Пролетарская</text>
       </g>
       <g>
-        <rect class="cls-14" x="413.86" y="629.29" width="8.86" height="11.34"/>
-        <text class="cls-15" transform="translate(417.66 637.33)">Обухово</text>
+        <rect class="cls-13" x="413.86" y="629.29" width="8.86" height="11.34"/>
+        <text class="cls-14" transform="translate(417.66 637.33)">Обухово</text>
       </g>
       <g>
-        <rect class="cls-14" x="130.86" y="368.5" width="56.14" height="11.34"/>
-        <text class="cls-19" transform="translate(135.19 376.54)">Театральная</text>
+        <rect class="cls-13" x="130.86" y="368.5" width="56.14" height="11.34"/>
+        <text class="cls-18" transform="translate(135.19 376.54)">Театральная</text>
       </g>
       <g>
-        <rect class="cls-14" x="392.99" y="398.64" width="28.47" height="11.34"/>
-        <text class="cls-15" transform="translate(397.11 406.68)">Новочеркасская</text>
+        <rect class="cls-13" x="392.99" y="398.64" width="28.47" height="11.34"/>
+        <text class="cls-14" transform="translate(397.11 406.68)">Новочеркасская</text>
       </g>
-      <text class="cls-15" transform="translate(438.98 429.84)">Ладожская</text>
+      <text class="cls-14" transform="translate(438.98 429.84)">Ладожская</text>
       <g>
-        <rect class="cls-14" x="442.53" y="443.62" width="50.7" height="19.84"/>
-        <text class="cls-15" transform="translate(454.09 451.91)">Проспект<tspan x="-14.89" y="8">Большевиков</tspan></text>
+        <rect class="cls-13" x="442.53" y="443.62" width="50.7" height="19.84"/>
+        <text class="cls-14" transform="translate(454.09 451.91)">Проспект<tspan x="-14.89" y="8">Большевиков</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="141.71" y="209.76" width="67.8" height="11.34"/>
-        <text class="cls-15" transform="translate(145.51 217.8)">Старая Деревня</text>
+        <rect class="cls-13" x="141.71" y="209.76" width="67.8" height="11.34"/>
+        <text class="cls-14" transform="translate(145.51 217.8)">Старая Деревня</text>
       </g>
       <g>
-        <rect class="cls-14" x="141.71" y="245.2" width="11.77" height="19.84"/>
-        <text class="cls-15" transform="translate(145.51 253.49)">Крестовский<tspan x="0" y="8">остров</tspan></text>
+        <rect class="cls-13" x="141.71" y="245.2" width="11.77" height="19.84"/>
+        <text class="cls-14" transform="translate(145.51 253.49)">Крестовский<tspan x="0" y="8">остров</tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="141.71" y="282.31" width="51.05" height="11.34"/>
-        <text class="cls-15" transform="translate(145.51 290.35)">Чкаловская</text>
+        <rect class="cls-13" x="141.71" y="282.31" width="51.05" height="11.34"/>
+        <text class="cls-14" transform="translate(145.51 290.35)">Чкаловская</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="515.92" width="51.61" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 523.96)">Волковская</text>
+        <rect class="cls-13" x="323.15" y="515.92" width="51.61" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 523.96)">Волковская</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="549.92" width="58.81" height="11.34"/>
-        <text class="cls-15" transform="translate(326.95 557.96)">Бухарестская</text>
+        <rect class="cls-13" x="323.15" y="549.92" width="58.81" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 557.96)">Бухарестская</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="617.92" width="69.16" height="11.34"/>
-        <text class="cls-19" transform="translate(326.95 625.96)">Проспект Славы</text>
+        <rect class="cls-13" x="323.15" y="617.92" width="69.16" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 625.96)">Проспект Славы</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="651.92" width="48.56" height="11.34"/>
-        <text class="cls-19" transform="translate(326.95 659.96)">Дунайская</text>
+        <rect class="cls-13" x="323.15" y="651.92" width="48.56" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 659.96)">Дунайская</text>
       </g>
       <g>
-        <rect class="cls-14" x="263.33" y="489.94" width="38.14" height="11.34"/>
-        <text class="cls-19" transform="translate(267.13 497.98)">Боровая</text>
+        <rect class="cls-13" x="263.33" y="489.94" width="38.14" height="11.34"/>
+        <text class="cls-18" transform="translate(267.13 497.98)">Боровая</text>
       </g>
       <g>
-        <rect class="cls-14" x="178.63" y="572.82" width="42.2" height="11.34"/>
-        <text class="cls-19" transform="translate(182.43 580.86)">Броневая</text>
+        <rect class="cls-13" x="178.63" y="572.82" width="42.2" height="11.34"/>
+        <text class="cls-18" transform="translate(182.43 580.86)">Броневая</text>
       </g>
       <g>
-        <rect class="cls-20" x="236.24" y="51.02" width="34.75" height="11.34"/>
-        <text class="cls-21" transform="translate(240.04 59.06)">Парнас</text>
+        <rect class="cls-19" x="236.24" y="51.02" width="34.75" height="11.34"/>
+        <text class="cls-20" transform="translate(240.04 59.06)">Парнас</text>
       </g>
       <g>
-        <rect class="cls-22" x="326.95" y="51.02" width="46.71" height="11.34"/>
-        <text class="cls-21" transform="translate(330.75 59.06)">Девяткино</text>
+        <rect class="cls-21" x="326.95" y="51.02" width="46.71" height="11.34"/>
+        <text class="cls-20" transform="translate(330.75 59.06)">Девяткино</text>
       </g>
       <g>
-        <rect class="cls-20" x="236.37" y="685.98" width="38.68" height="11.34"/>
-        <text class="cls-21" transform="translate(240.17 694.03)">Купчино</text>
+        <rect class="cls-19" x="236.37" y="685.98" width="38.68" height="11.34"/>
+        <text class="cls-20" transform="translate(240.17 694.03)">Купчино</text>
       </g>
       <g>
-        <rect class="cls-22" x="145.63" y="681.73" width="46.71" height="19.84"/>
-        <text class="cls-21" transform="translate(149.43 690.02)">Проспект<tspan x="0" y="8">Ветеранов</tspan></text>
+        <rect class="cls-21" x="145.63" y="681.73" width="46.71" height="19.84"/>
+        <text class="cls-20" transform="translate(149.43 690.02)">Проспект<tspan x="0" y="8">Ветеранов</tspan></text>
       </g>
       <g>
-        <rect class="cls-23" x="54.82" y="209.76" width="36.85" height="11.34"/>
-        <text class="cls-21" transform="translate(58.63 217.8)">Беговая</text>
+        <rect class="cls-22" x="54.82" y="209.76" width="36.85" height="11.34"/>
+        <text class="cls-20" transform="translate(58.63 217.8)">Беговая</text>
       </g>
       <g>
-        <rect class="cls-23" x="417.66" y="685.98" width="44.63" height="11.34"/>
-        <text class="cls-21" transform="translate(421.46 694.03)">Рыбацкое</text>
+        <rect class="cls-22" x="417.66" y="685.98" width="44.63" height="11.34"/>
+        <text class="cls-20" transform="translate(421.46 694.03)">Рыбацкое</text>
       </g>
       <g>
-        <rect class="cls-24" x="146.42" y="171.5" width="65.74" height="19.84"/>
-        <text class="cls-21" transform="translate(150.08 179.79)">Комендантский<tspan x="0" y="8">проспект</tspan></text>
+        <rect class="cls-23" x="146.42" y="171.5" width="65.74" height="19.84"/>
+        <text class="cls-20" transform="translate(150.08 179.79)">Комендантский<tspan x="0" y="8">проспект</tspan></text>
       </g>
       <g>
-        <rect class="cls-25" x="422.71" y="481.89" width="66.51" height="11.34"/>
-        <text class="cls-21" transform="translate(426.56 489.93)">Улица Дыбенко</text>
+        <rect class="cls-24" x="422.71" y="481.89" width="66.51" height="11.34"/>
+        <text class="cls-20" transform="translate(426.56 489.93)">Улица Дыбенко</text>
       </g>
       <g>
-        <rect class="cls-14" x="145.94" y="390.6" width="77.31" height="11.34"/>
-        <text class="cls-15" transform="translate(149.11 398.64)">Сенная площадь</text>
+        <rect class="cls-13" x="145.94" y="390.6" width="77.31" height="11.34"/>
+        <text class="cls-14" transform="translate(149.11 398.64)">Сенная площадь</text>
       </g>
       <g>
-        <rect class="cls-25" x="170.02" y="401.94" width="41.66" height="11.34"/>
-        <text class="cls-21" transform="translate(173.1 409.98)">Спасская</text>
+        <rect class="cls-24" x="170.02" y="401.94" width="41.66" height="11.34"/>
+        <text class="cls-20" transform="translate(173.1 409.98)">Спасская</text>
       </g>
       <g>
-        <rect class="cls-14" x="176.78" y="413.28" width="46.48" height="11.34"/>
-        <text class="cls-15" transform="translate(180.16 421.32)">Садовая</text>
+        <rect class="cls-13" x="176.78" y="413.28" width="46.48" height="11.34"/>
+        <text class="cls-14" transform="translate(180.16 421.32)">Садовая</text>
       </g>
       <g>
-        <rect class="cls-24" x="326.95" y="583.94" width="69.8" height="11.34"/>
-        <text class="cls-21" transform="translate(330.75 591.98)">Международная</text>
+        <rect class="cls-23" x="326.95" y="685.92" width="40.57" height="11.34"/>
+        <text class="cls-20" transform="translate(330.75 693.96)">Шушары</text>
       </g>
       <g>
-        <rect class="cls-14" x="323.15" y="685.92" width="40.21" height="11.34"/>
-        <text class="cls-19" transform="translate(326.95 693.96)">Шушары</text>
+        <rect class="cls-13" x="323.15" y="583.94" width="69.16" height="11.34"/>
+        <text class="cls-14" transform="translate(326.95 591.98)">Международная</text>
       </g>
       <g>
-        <rect class="cls-14" x="44.34" y="368.5" width="69.91" height="11.34"/>
-        <text class="cls-19" transform="translate(48.05 376.54)">Горный институт</text>
+        <rect class="cls-13" x="44.34" y="368.5" width="69.91" height="11.34"/>
+        <text class="cls-18" transform="translate(48.05 376.54)">Горный институт</text>
       </g>
       <g>
-        <rect class="cls-14" x="301.59" y="447.65" width="79" height="21.54"/>
-        <text class="cls-15" transform="translate(312.95 455.69)">Обводный канал<tspan class="cls-16"><tspan x="0" y="9.6">Каретная</tspan></tspan></text>
+        <rect class="cls-13" x="301.59" y="447.65" width="79" height="21.54"/>
+        <text class="cls-14" transform="translate(312.95 455.69)">Обводный канал<tspan class="cls-15"><tspan x="0" y="9.6">Каретная</tspan></tspan></text>
       </g>
       <g>
-        <rect class="cls-14" x="36.35" y="631.66" width="63.04" height="11.34"/>
-        <text class="cls-19" transform="translate(40.76 639.7)">Юго-западная</text>
+        <rect class="cls-13" x="36.35" y="631.66" width="63.04" height="11.34"/>
+        <text class="cls-18" transform="translate(40.76 639.7)">Юго-западная</text>
       </g>
       <g>
-        <rect class="cls-14" x="157.71" y="300.26" width="5.78" height="11.34"/>
-        <text class="cls-15" transform="translate(161.51 308.3)">Спортивная</text>
+        <rect class="cls-13" x="157.71" y="300.26" width="5.78" height="11.34"/>
+        <text class="cls-14" transform="translate(161.51 308.3)">Спортивная</text>
       </g>
-      <text class="cls-26" transform="translate(262.14 314.35)">р. Нева</text>
-      <line class="cls-27" x1="237.24" y1="350.63" x2="233.27" y2="350.63"/>
-      <line class="cls-12" x1="240.85" y1="522.91" x2="236.88" y2="522.91"/>
-      <line class="cls-10" x1="240.85" y1="536.26" x2="236.88" y2="536.26"/>
-      <line class="cls-11" x1="125.77" y1="602.57" x2="121.81" y2="602.57"/>
-      <line class="cls-10" x1="125.77" y1="612.19" x2="121.81" y2="612.19"/>
-      <line class="cls-12" x1="219.68" y1="396.27" x2="215.71" y2="396.27"/>
+      <text class="cls-25" transform="translate(262.14 314.35)">р. Нева</text>
+      <line class="cls-26" x1="237.24" y1="350.63" x2="233.27" y2="350.63"/>
+      <line class="cls-11" x1="240.85" y1="522.91" x2="236.88" y2="522.91"/>
+      <line class="cls-9" x1="240.85" y1="536.26" x2="236.88" y2="536.26"/>
+      <line class="cls-10" x1="125.77" y1="602.57" x2="121.81" y2="602.57"/>
+      <line class="cls-9" x1="125.77" y1="612.19" x2="121.81" y2="612.19"/>
+      <line class="cls-11" x1="219.68" y1="396.27" x2="215.71" y2="396.27"/>
       <line class="cls-7" x1="219.68" y1="407.61" x2="215.71" y2="407.61"/>
-      <line class="cls-9" x1="219.68" y1="418.94" x2="215.71" y2="418.94"/>
+      <line class="cls-8" x1="219.68" y1="418.94" x2="215.71" y2="418.94"/>
       <line class="cls-6" x1="237.24" y1="360.25" x2="233.27" y2="360.25"/>
-      <line class="cls-11" x1="328.24" y1="350.63" x2="324.27" y2="350.63"/>
+      <line class="cls-10" x1="328.24" y1="350.63" x2="324.27" y2="350.63"/>
       <line class="cls-6" x1="328.24" y1="360.25" x2="324.27" y2="360.25"/>
-      <line class="cls-11" x1="304.44" y1="396.56" x2="300.47" y2="396.56"/>
+      <line class="cls-10" x1="304.44" y1="396.56" x2="300.47" y2="396.56"/>
       <line class="cls-7" x1="304.44" y1="406.18" x2="300.47" y2="406.18"/>
-      <line class="cls-11" x1="275.52" y1="419.74" x2="271.56" y2="419.74"/>
-      <line class="cls-9" x1="275.52" y1="429.36" x2="271.56" y2="429.36"/>
-      <line class="cls-9" x1="309.61" y1="453.61" x2="305.64" y2="453.61"/>
-      <line class="cls-10" x1="309.61" y1="463.23" x2="305.64" y2="463.23"/>
+      <line class="cls-10" x1="275.52" y1="419.74" x2="271.56" y2="419.74"/>
+      <line class="cls-8" x1="275.52" y1="429.36" x2="271.56" y2="429.36"/>
+      <line class="cls-8" x1="309.61" y1="453.61" x2="305.64" y2="453.61"/>
+      <line class="cls-9" x1="309.61" y1="463.23" x2="305.64" y2="463.23"/>
       <g>
-        <circle class="cls-20" cx="226.77" cy="45.35" r="5.67"/>
-        <text class="cls-21" transform="translate(224.64 48.01)">2</text>
+        <circle class="cls-19" cx="226.77" cy="45.35" r="5.67"/>
+        <text class="cls-20" transform="translate(224.64 48.01)">2</text>
       </g>
       <g>
-        <circle class="cls-22" cx="317.48" cy="45.35" r="5.67"/>
-        <text class="cls-21" transform="translate(315.86 48.01)">1</text>
+        <circle class="cls-21" cx="317.48" cy="45.35" r="5.67"/>
+        <text class="cls-20" transform="translate(315.86 48.01)">1</text>
       </g>
       <g>
-        <circle class="cls-24" cx="136.06" cy="170.08" r="5.67"/>
-        <text class="cls-21" transform="translate(133.8 172.73)">5</text>
+        <circle class="cls-23" cx="136.06" cy="170.08" r="5.67"/>
+        <text class="cls-20" transform="translate(133.8 172.73)">5</text>
       </g>
       <g>
-        <circle class="cls-23" cx="45.35" cy="204.09" r="5.67"/>
-        <text class="cls-21" transform="translate(43.17 206.75)">3</text>
+        <circle class="cls-22" cx="45.35" cy="204.09" r="5.67"/>
+        <text class="cls-20" transform="translate(43.17 206.75)">3</text>
       </g>
       <g>
-        <circle class="cls-25" cx="67.76" cy="385.51" r="5.67"/>
-        <text class="cls-21" transform="translate(65.35 388.17)">4</text>
+        <circle class="cls-24" cx="67.76" cy="385.51" r="5.67"/>
+        <text class="cls-20" transform="translate(65.35 388.17)">4</text>
       </g>
       <g>
-        <circle class="cls-28" cx="93.84" cy="654.42" r="5.67"/>
-        <text class="cls-21" transform="translate(91.61 657.08)">6</text>
+        <circle class="cls-27" cx="93.84" cy="654.42" r="5.67"/>
+        <text class="cls-20" transform="translate(91.61 657.08)">6</text>
       </g>
       <g>
-        <circle class="cls-22" cx="136.06" cy="702.99" r="5.67"/>
-        <text class="cls-21" transform="translate(134.45 705.65)">1</text>
+        <circle class="cls-21" cx="136.06" cy="702.99" r="5.67"/>
+        <text class="cls-20" transform="translate(134.45 705.65)">1</text>
       </g>
       <g>
-        <circle class="cls-20" cx="226.77" cy="702.99" r="5.67"/>
-        <text class="cls-21" transform="translate(224.64 705.65)">2</text>
+        <circle class="cls-19" cx="226.77" cy="702.99" r="5.67"/>
+        <text class="cls-20" transform="translate(224.64 705.65)">2</text>
       </g>
       <g>
-        <circle class="cls-24" cx="317.48" cy="702.99" r="5.67"/>
-        <text class="cls-21" transform="translate(315.22 705.65)">5</text>
+        <circle class="cls-23" cx="317.48" cy="702.99" r="5.67"/>
+        <text class="cls-20" transform="translate(315.22 705.65)">5</text>
       </g>
       <g>
-        <circle class="cls-23" cx="408.19" cy="702.99" r="5.67"/>
-        <text class="cls-21" transform="translate(406 705.65)">3</text>
+        <circle class="cls-22" cx="408.19" cy="702.99" r="5.67"/>
+        <text class="cls-20" transform="translate(406 705.65)">3</text>
       </g>
       <g>
-        <circle class="cls-25" cx="498.9" cy="499.18" r="5.67"/>
-        <text class="cls-21" transform="translate(496.49 501.84)">4</text>
+        <circle class="cls-24" cx="498.9" cy="499.18" r="5.67"/>
+        <text class="cls-20" transform="translate(496.49 501.84)">4</text>
       </g>
       <g>
-        <circle class="cls-28" cx="307.26" cy="442.15" r="5.67"/>
-        <text class="cls-21" transform="translate(305.02 444.8)">6</text>
+        <circle class="cls-27" cx="307.26" cy="442.15" r="5.67"/>
+        <text class="cls-20" transform="translate(305.02 444.8)">6</text>
       </g>
-      <line class="cls-27" x1="232.44" y1="294.8" x2="226.77" y2="294.8"/>
-      <line class="cls-27" x1="232.44" y1="260.79" x2="226.77" y2="260.79"/>
-      <line class="cls-27" x1="232.44" y1="226.77" x2="226.77" y2="226.77"/>
-      <line class="cls-27" x1="232.44" y1="192.76" x2="226.77" y2="192.76"/>
-      <line class="cls-27" x1="232.44" y1="158.74" x2="226.77" y2="158.74"/>
-      <line class="cls-27" x1="232.44" y1="124.72" x2="226.77" y2="124.72"/>
-      <line class="cls-27" x1="232.44" y1="90.71" x2="226.77" y2="90.71"/>
-      <line class="cls-27" x1="232.44" y1="56.69" x2="221.1" y2="56.69"/>
-      <line class="cls-11" x1="323.15" y1="323.48" x2="317.48" y2="323.48"/>
-      <line class="cls-29" x1="323.15" y1="260.79" x2="317.48" y2="260.79"/>
-      <line class="cls-29" x1="323.15" y1="226.77" x2="317.48" y2="226.77"/>
-      <line class="cls-29" x1="323.15" y1="192.76" x2="317.48" y2="192.76"/>
-      <line class="cls-29" x1="323.15" y1="158.74" x2="317.48" y2="158.74"/>
-      <line class="cls-29" x1="323.15" y1="124.72" x2="317.48" y2="124.72"/>
-      <line class="cls-29" x1="323.15" y1="90.71" x2="317.48" y2="90.71"/>
-      <line class="cls-29" x1="323.15" y1="294.8" x2="317.48" y2="294.8"/>
-      <line class="cls-29" x1="323.15" y1="56.69" x2="311.81" y2="56.69"/>
-      <line class="cls-27" x1="226.77" y1="487.56" x2="221.1" y2="487.56"/>
-      <line class="cls-27" x1="232.44" y1="555.59" x2="226.77" y2="555.59"/>
-      <line class="cls-27" x1="232.44" y1="589.61" x2="226.77" y2="589.61"/>
-      <line class="cls-27" x1="232.44" y1="623.62" x2="226.77" y2="623.62"/>
-      <line class="cls-27" x1="232.44" y1="657.64" x2="226.77" y2="657.64"/>
-      <line class="cls-27" x1="232.44" y1="691.65" x2="221.1" y2="691.65"/>
-      <line class="cls-11" x1="136.06" y1="555.59" x2="130.39" y2="555.59"/>
-      <line class="cls-11" x1="170.09" y1="510.26" x2="166.08" y2="506.25"/>
-      <line class="cls-11" x1="141.73" y1="634.96" x2="136.06" y2="634.96"/>
-      <line class="cls-11" x1="141.73" y1="663.31" x2="136.06" y2="663.31"/>
-      <line class="cls-11" x1="141.73" y1="691.65" x2="130.39" y2="691.65"/>
+      <line class="cls-26" x1="232.44" y1="294.8" x2="226.77" y2="294.8"/>
+      <line class="cls-26" x1="232.44" y1="260.79" x2="226.77" y2="260.79"/>
+      <line class="cls-26" x1="232.44" y1="226.77" x2="226.77" y2="226.77"/>
+      <line class="cls-26" x1="232.44" y1="192.76" x2="226.77" y2="192.76"/>
+      <line class="cls-26" x1="232.44" y1="158.74" x2="226.77" y2="158.74"/>
+      <line class="cls-26" x1="232.44" y1="124.72" x2="226.77" y2="124.72"/>
+      <line class="cls-26" x1="232.44" y1="90.71" x2="226.77" y2="90.71"/>
+      <line class="cls-26" x1="232.44" y1="56.69" x2="221.1" y2="56.69"/>
+      <line class="cls-10" x1="323.15" y1="323.48" x2="317.48" y2="323.48"/>
+      <line class="cls-28" x1="323.15" y1="260.79" x2="317.48" y2="260.79"/>
+      <line class="cls-28" x1="323.15" y1="226.77" x2="317.48" y2="226.77"/>
+      <line class="cls-28" x1="323.15" y1="192.76" x2="317.48" y2="192.76"/>
+      <line class="cls-28" x1="323.15" y1="158.74" x2="317.48" y2="158.74"/>
+      <line class="cls-28" x1="323.15" y1="124.72" x2="317.48" y2="124.72"/>
+      <line class="cls-28" x1="323.15" y1="90.71" x2="317.48" y2="90.71"/>
+      <line class="cls-28" x1="323.15" y1="294.8" x2="317.48" y2="294.8"/>
+      <line class="cls-28" x1="323.15" y1="56.69" x2="311.81" y2="56.69"/>
+      <line class="cls-26" x1="226.77" y1="487.56" x2="221.1" y2="487.56"/>
+      <line class="cls-26" x1="232.44" y1="555.59" x2="226.77" y2="555.59"/>
+      <line class="cls-26" x1="232.44" y1="589.61" x2="226.77" y2="589.61"/>
+      <line class="cls-26" x1="232.44" y1="623.62" x2="226.77" y2="623.62"/>
+      <line class="cls-26" x1="232.44" y1="657.64" x2="226.77" y2="657.64"/>
+      <line class="cls-26" x1="232.44" y1="691.65" x2="221.1" y2="691.65"/>
+      <line class="cls-10" x1="136.06" y1="555.59" x2="130.39" y2="555.59"/>
+      <line class="cls-10" x1="170.09" y1="510.26" x2="166.08" y2="506.25"/>
+      <line class="cls-10" x1="141.73" y1="634.96" x2="136.06" y2="634.96"/>
+      <line class="cls-10" x1="141.73" y1="663.31" x2="136.06" y2="663.31"/>
+      <line class="cls-10" x1="141.73" y1="691.65" x2="130.39" y2="691.65"/>
       <line class="cls-6" x1="66.65" y1="307.52" x2="62.64" y2="311.53"/>
       <line class="cls-6" x1="113.39" y1="334.49" x2="113.39" y2="340.16"/>
       <line class="cls-6" x1="51.02" y1="255.12" x2="45.35" y2="255.12"/>
@@ -566,33 +561,33 @@
       <line class="cls-7" x1="498.9" y1="453.54" x2="493.23" y2="453.54"/>
       <line class="cls-7" x1="504.57" y1="487.56" x2="493.23" y2="487.56"/>
       <line class="cls-7" x1="351.5" y1="385.51" x2="351.5" y2="379.84"/>
-      <line class="cls-13" x1="158.74" y1="385.51" x2="158.74" y2="379.84"/>
-      <line class="cls-13" x1="79.37" y1="391.18" x2="79.37" y2="379.84"/>
-      <line class="cls-9" x1="158.94" y1="310.04" x2="154.93" y2="314.05"/>
-      <line class="cls-9" x1="141.73" y1="287.98" x2="136.06" y2="287.98"/>
-      <line class="cls-9" x1="141.73" y1="255.12" x2="136.06" y2="255.12"/>
-      <line class="cls-9" x1="141.73" y1="215.43" x2="136.06" y2="215.43"/>
-      <line class="cls-9" x1="141.73" y1="181.42" x2="130.39" y2="181.42"/>
-      <line class="cls-9" x1="185.43" y1="344.55" x2="181.42" y2="348.56"/>
-      <line class="cls-9" x1="323.15" y1="555.59" x2="317.48" y2="555.59"/>
-      <line class="cls-9" x1="323.15" y1="589.61" x2="311.81" y2="589.61"/>
+      <line class="cls-12" x1="158.74" y1="385.51" x2="158.74" y2="379.84"/>
+      <line class="cls-12" x1="79.37" y1="391.18" x2="79.37" y2="379.84"/>
+      <line class="cls-8" x1="158.94" y1="310.04" x2="154.93" y2="314.05"/>
+      <line class="cls-8" x1="141.73" y1="287.98" x2="136.06" y2="287.98"/>
+      <line class="cls-8" x1="141.73" y1="255.12" x2="136.06" y2="255.12"/>
+      <line class="cls-8" x1="141.73" y1="215.43" x2="136.06" y2="215.43"/>
+      <line class="cls-8" x1="141.73" y1="181.42" x2="130.39" y2="181.42"/>
+      <line class="cls-8" x1="185.43" y1="344.55" x2="181.42" y2="348.56"/>
+      <line class="cls-8" x1="323.15" y1="555.59" x2="317.48" y2="555.59"/>
+      <line class="cls-8" x1="323.15" y1="589.61" x2="317.48" y2="589.61"/>
       <line class="cls-8" x1="323.15" y1="623.62" x2="317.48" y2="623.62"/>
       <line class="cls-8" x1="323.15" y1="657.64" x2="317.48" y2="657.64"/>
       <line class="cls-8" x1="323.15" y1="691.65" x2="311.81" y2="691.65"/>
-      <line class="cls-9" x1="323.15" y1="521.59" x2="317.48" y2="521.59"/>
-      <line class="cls-10" x1="264.69" y1="491.57" x2="260.68" y2="487.56"/>
-      <line class="cls-10" x1="185.45" y1="570.83" x2="181.45" y2="566.82"/>
-      <line class="cls-10" x1="106.08" y1="650.2" x2="98.06" y2="642.18"/>
-      <circle class="cls-30" cx="226.77" cy="340.16" r="5.67"/>
-      <circle class="cls-30" cx="226.77" cy="385.51" r="5.67"/>
-      <circle class="cls-30" cx="317.48" cy="340.16" r="5.67"/>
-      <circle class="cls-30" cx="226.77" cy="453.54" r="5.67"/>
-      <circle class="cls-30" cx="294.8" cy="385.51" r="5.67"/>
-      <circle class="cls-30" cx="260.79" cy="419.53" r="5.67"/>
-      <circle class="cls-30" cx="408.19" cy="385.51" r="5.67"/>
-      <circle class="cls-30" cx="294.8" cy="453.54" r="5.67"/>
-      <circle class="cls-30" cx="226.77" cy="521.57" r="5.67"/>
-      <circle class="cls-30" cx="136.06" cy="612.28" r="5.67"/>
+      <line class="cls-8" x1="323.15" y1="521.59" x2="317.48" y2="521.59"/>
+      <line class="cls-9" x1="264.69" y1="491.57" x2="260.68" y2="487.56"/>
+      <line class="cls-9" x1="185.45" y1="570.83" x2="181.45" y2="566.82"/>
+      <line class="cls-9" x1="106.08" y1="650.2" x2="98.06" y2="642.18"/>
+      <circle class="cls-29" cx="226.77" cy="340.16" r="5.67"/>
+      <circle class="cls-29" cx="226.77" cy="385.51" r="5.67"/>
+      <circle class="cls-29" cx="317.48" cy="340.16" r="5.67"/>
+      <circle class="cls-29" cx="226.77" cy="453.54" r="5.67"/>
+      <circle class="cls-29" cx="294.8" cy="385.51" r="5.67"/>
+      <circle class="cls-29" cx="260.79" cy="419.53" r="5.67"/>
+      <circle class="cls-29" cx="408.19" cy="385.51" r="5.67"/>
+      <circle class="cls-29" cx="294.8" cy="453.54" r="5.67"/>
+      <circle class="cls-29" cx="226.77" cy="521.57" r="5.67"/>
+      <circle class="cls-29" cx="136.06" cy="612.28" r="5.67"/>
     </g>
   </g>
 </svg>
