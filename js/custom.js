@@ -5,7 +5,7 @@
       var data = {};
 
       $('.map-msk #map-box img').attr('src', '/img/msk-en.svg');
-      $('.map-msk .map-title').text('Moscow Metro');
+      $('.map-msk .map-title').text('Moscow Metro and MCD');
       $('.menu-item-msk').text('Moscow');
       $('.map-msk .menu-item-download').attr('href', '/downloads/msk-en.pdf');
       data['map-msk'] = {};
@@ -58,7 +58,7 @@
       var data = {};
 
       $('.map-msk #map-box img').attr('src', '/img/msk-ru.svg');
-      $('.map-msk .map-title').text('Московский метрополитен');
+      $('.map-msk .map-title').text('Московское метро и МЦД');
       $('.menu-item-msk').text('Москва');
       $('.map-msk .menu-item-download').attr('href', '/downloads/msk-ru.pdf');
       data['map-msk'] = {};
