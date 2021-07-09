@@ -1,6 +1,8 @@
-var dataCacheName = 'mm2-pwa-v2.3';
-var cacheName = 'mm2-pwa-v2.3';
-var filesToCache = [
+// Adopted from https://github.com/nikkifurls/simplepwa
+const cacheName = 'mm2-pwa-v2.5';
+
+// Files to cache
+var staticAssets = [
  "./fonts/MaterialIcons-Regular.eot",
  "./fonts/MaterialIcons-Regular.ttf",
  "./fonts/MaterialIcons-Regular.woff",
@@ -37,36 +39,48 @@ var filesToCache = [
  "./css/styles.css"
 ];
 
-self.addEventListener('install', function(e) {
-  console.log('[ServiceWorker] Install');
-  e.waitUntil(
-    caches.open(cacheName).then(function(cache) {
-      console.log('[ServiceWorker] Caching app shell');
-      return cache.addAll(filesToCache);
+self.addEventListener("install", event => {
+  // Kick out the old service worker
+  self.skipWaiting();
+
+  event.waitUntil(
+    caches.open(cacheName).then(cache => {
+      return cache.addAll(staticAssets);
     })
   );
 });
 
-self.addEventListener('activate', function(e) {
-  console.log('[ServiceWorker] Activate');
-  e.waitUntil(
-    caches.keys().then(function(keyList) {
-      return Promise.all(keyList.map(function(key) {
-        if (key !== cacheName && key !== dataCacheName) {
-          console.log('[ServiceWorker] Removing old cache', key);
-          return caches.delete(key);
-        }
-      }));
+self.addEventListener("activate", event => {
+  // Delete any non-current cache
+  event.waitUntil(
+    caches.keys().then(keys => {
+      Promise.all(
+        keys.map(key => {
+          if (![cacheName].includes(key)) {
+            return caches.delete(key);
+          }
+        })
+      )
     })
   );
-  return self.clients.claim();
 });
 
-self.addEventListener('fetch', function(e) {
-  console.log('[Service Worker] Fetch', e.request.url);
-  e.respondWith(
-    caches.match(e.request).then(function(response) {
-      return response || fetch(e.request);
+// Offline-first, cache-first strategy
+// Kick off two asynchronous requests, one to the cache and one to the network
+// If there's a cached version available, use it, but fetch an update for next time.
+// Gets data on screen as quickly as possible, then updates once the network has returned the latest data. 
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    caches.open(cacheName).then(cache => {
+      return cache.match(event.request).then(response => {
+        return response || fetch(event.request).then(networkResponse => {
+          if(event.request.method !== "GET") {
+            return networkResponse;
+          }
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
+        });
+      })
     })
   );
 });
