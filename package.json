@@ -18,7 +18,7 @@
   "homepage": "https://github.com/i-amdroid/metro2-map#readme",
   "devDependencies": {
     "breakpoint-sass": "^2.7.1",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
