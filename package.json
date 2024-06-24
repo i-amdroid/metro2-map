@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Metro map SPA",
   "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "develop": "gulp"
   },
   "repository": {
     "type": "git",
@@ -17,11 +20,11 @@
   },
   "homepage": "https://github.com/i-amdroid/metro2-map#readme",
   "devDependencies": {
-    "breakpoint-sass": "^2.7.1",
+    "breakpoint-sass": "^3.0.0",
     "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^8.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "sass": "^1.70.0"
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.74.1"
   }
 }

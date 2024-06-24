@@ -1,17 +1,19 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass')(require('sass'));
-var sourcemaps = require('gulp-sourcemaps');
-var autoprefixer = require('gulp-autoprefixer');
+import gulp from 'gulp'
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+import sourcemaps from 'gulp-sourcemaps';
+import autoprefixer from 'gulp-autoprefixer';
 
-var SASS = 'sass';
-var CSS = 'css';
+const sass = gulpSass(dartSass);
 
-var sassOptions = {
+const SASS = 'sass';
+const CSS = 'css';
+
+const sassOptions = {
   includePaths: ['./node_modules/breakpoint-sass/stylesheets']
 };
 
-// tasks
-
+// Tasks.
 gulp.task('sass', done => {
   gulp.src(SASS + '/**/*.scss')
     .pipe(sourcemaps.init())
@@ -24,8 +26,6 @@ gulp.task('sass', done => {
 
 gulp.task('build', gulp.series('sass'));
 
-gulp.task('watch', function () {
-  return gulp.watch(SASS + '/**/*.scss', gulp.series('sass'));
-});
+gulp.task('watch', () => gulp.watch(SASS + '/**/*.scss', gulp.series(gulp.series('sass'))));
 
 gulp.task('default', gulp.series('build', 'watch'));
