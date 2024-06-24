@@ -1,5 +1,5 @@
 // Adopted from https://github.com/nikkifurls/simplepwa
-const cacheName = 'mm2-pwa-v3.0.1';
+const cacheName = 'mm2-pwa-v3.1.0';
 
 // Files to cache
 var staticAssets = [
